@@ -1,0 +1,43 @@
+01 Teste - Introdução a criação de websites com HTML5
+==============================================================
+
+O que podemos colocar dentro de um elemento p?
+Qualquer tipo de conteúdo.
+-------------------------------
+
+Qual é a utilidade do atributo alt em uma imagem?
+Ele mostra a descrição da imagem caso ela não carregue.
+---------------------------------
+
+Qual elemento não foi criado na versão 5 do HTML?
+H1 a H6.
+--------------------------------
+
+Qual atributo da âncora (<a>) representa o hyperlink para onde ela aponta?
+href .
+--------------------------------
+
+O que podemos colocar dentro do elemento head?
+Metadados, CSS e links para arquivos externos.
+--------------------------------
+
+O que é uma lista não ordenada?
+É uma lista onde a ordem dos itens não é importante, é representa pelo elemento ul.
+---------------------------------
+
+Qual é a estrutura de um elemento HTML?
+Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento.
+----------------------------------
+
+O que está errado sobre o elemento header?
+Ele só pode ser usado uma vez por página.
+------------------------------------
+
+Como adicionamos uma imagem no HTML?
+Com o elemento <img>.
+-------------------------------------
+
+Para que serve a semântica no HTML?
+Ela dá significado ao nosso código HTML.
+--------------------------------------
+
