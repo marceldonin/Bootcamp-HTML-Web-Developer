@@ -1,0 +1,43 @@
+02 Teste - Introdução a criação de websites com HTML5
+==============================================================
+
+O que está errado sobre IDs e Classes?
+IDs podem ser usados várias vezes em uma página.
+----------------------------
+
+Qual é o valor que colocamos na propriedade margin para nos ajudar a alinhar elementos horizontalmente?
+auto.
+----------------------------
+
+Como podemos alinhar um texto na tela?
+Com a propriedade text-align, usando os valores left, right, center e justify.
+----------------------------
+
+Quais são as 4 áreas do box-model?
+Content, padding, border e margin.
+-------------------------------
+
+Como é formada uma regra CSS?
+Por um seletor ou um grupo de seletores e por pelo menos uma declaração, que é formada por uma propriedade e um valor.
+------------------------------
+
+Qual dessas declarações da propriedade padding está correta?
+padding: 11px 11px;
+------------------------------
+
+Para que serve o border-radius?
+Para arredondar cantos de elementos.
+--------------------------------
+
+Qual destas regras de font não existe?
+font-transform.
+-------------------------------
+
+O que podemos alterar em uma borda?
+Largura, cor e estilo.
+-------------------------------
+
+É possível adicionar imagens aos marcadores de uma lista?
+Sim, com a propriedade list-style-image.
+-------------------------------
+

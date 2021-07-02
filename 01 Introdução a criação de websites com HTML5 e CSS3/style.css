@@ -1,19 +1,89 @@
+/*
+Theme Name: Portfólio
+Theme URI: 
+Author: Marcel Donin
+Author URI: 
+Description: Descrição do thema.
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+
+font-family: 'Open Sans', sans-serif;
+
+*/
+
 body {
     background: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    max-width: 690px;
+    margin: auto;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: underline;
+    color: red;
+}
+
+.image_perfil {
+    border: 10px solid rgb(26, 24, 24);
+    border-radius: 30%;
+  
+    
+
 }
 
 #title, .subtitle, .post_title {
-    color:rgb(243, 10, 10);
+    color:rgb(26, 24, 24);
 }
 
 .post_title {
     font-size: 16;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+
 }
 
 .post {
     background: rgb(135, 141, 135);
     padding: 15px;
-    border: 3px solid #000;
-    margin: 10px;
+    border: 3px solid rgb(82, 76, 76);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    /*width: 100%;*/
+}
+
+.contato_lista {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contato_lista li a {
+    color: blue;
 }
