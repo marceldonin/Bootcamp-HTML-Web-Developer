@@ -18,21 +18,80 @@ ESTRUTURA BASE
 /***** EXTRAS*/
 /***** @MEDIA*/
 /*
-font-family: 'Open Sans', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
 
 */
 
 /***** DECLARAÇÃO DE VARIAVEIS*/
 
 /***** ESTILOS GERAIS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
 
 /***** BODY*/
-
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(231, 227, 227);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
 /***** HEADER*/
 
 /***** FOOTER*/
 
 /***** PÁGINA INICIAL*/
+
+.instagram-principal {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-mobile { /* ESQUERDA */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%
+}
+
+.instagram-mobile img {
+    height: 40rem;
+ 
+}
+
+.instagram-continue { /* DIREITA */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-instagram {
+
+}
+
+.foto-perfil img {
+    height: 10rem;
+}
 
 /***** EXTRAS*/
 
