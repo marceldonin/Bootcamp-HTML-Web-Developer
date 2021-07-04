@@ -2,8 +2,8 @@
 Theme Name: 
 Theme URI: 
 Author: Marcel Donin
-Author URI: https://github.com/marceldonin/Bootcamp-HTML-Web-Developer/tree/main/02%20Projeto%20CSS
-Description: Projeto CSS - Recriar página do Instagram  
+Author URI: 
+Description: 
 Version: 1.0
 
 --------------------------------------------
@@ -72,6 +72,16 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%
+
+    overflow: hidden;
+}
+
+.instagram-mobile ul {
+    display: flex;
+    list-style: none;
+    width: 800px;
+ 
+   
 }
 
 .instagram-mobile img {
