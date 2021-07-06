@@ -1,0 +1,63 @@
+Teste 01 Introdução ao JavaScript
+==========================================
+
+Analise o código abaixo e responda a alternativa correta;
+/*
+var lista  = [nome: “rosa” , “cravo” , “tulipa”, “margarida”]
+console.log(lista[2]);
+*/
+
+Qual o resultado do comando acima?
+Não vai aparecer no console, pois é um comentário.
+----------------------------------------------
+
+Considere a variável count de valor 0. Ela passará pelo laço de repetição com "while(count < 5)" imprimindo no console a sequência de números "0, 1, 2, 3, 4, 5". Sendo assim, qual comando abaixo usando "for" seria compatível com este comando "while"?
+for(count=0; count <= 5; count++)
+----------------------------------------------
+
+Uma ferramenta que não é exclusiva do navegador Google Chrome é a visualização da estrutura da página, os arquivos carregados, mensagens do desenvolvedor, debug e entre outras funções. Quanto a funcionalidade de gerar mensagens do desenvolvedor, considere que uma variável contém o valor "Simplicity is the ultimate sophistication.", uma segunda variável contém o valor "Leonardo da Vinci:". No caso se precisar escrever no console a primeira varíavel, depois a segunda e acrescentar, de forma válida, o seguinte trecho "1425-1519", qual alternativa abaixo está correta?
+console.log(var1 + var2 + 1425 + "-" + 1519);
+-------------------------------------------------
+
+Sobre o JavaScript, é incorreto afirmar:
+Todas as outras alternativas estão incorretas.
+-----------------------------------------------
+
+Considere que você possua o arquivo index.html e você precisa inserir um arquivo de JavaScript chamado "heroi.js" que está em uma pasta chamada "personagens". Qual das alternativas abaixo faria isso da forma correta?
+<script src="personagens/heroi.js" type="text/javascript"></script>
+-------------------------------------------------
+
+Veja o código abaixo:
+
+var lista = [“Alemanha”, “Inglaterra”, “Escócia”]/
+lista.push(“Polônia”);
+lista.pop(“Inglaterra”);
+
+Como ficará a listagem desse comando?
+O comando não pode ser executado, pois o comando que inicia um comentário está faltando um caractere.
+--------------------------------------------------------------
+
+Dia 1º de Abril é o Dia da Mentira. Imagine que hoje seja esse dia (ou por sorte seja mesmo), qual código abaixo retornaria uma string com o dia e o mês(numérico) corretamente no console?
+console.log("Hoje é " + d.getDate() + "/" + (d.getMonth()+1));
+----------------------------------------------------------------
+
+A história da chapeuzinho vermelho é umas das histórias mais conhecidas no mundo e possui inúmeras adaptações, mas a história básica cita que a protagonista, chamada de "Chapeuzinho Vermelho", tem um trajeto da sua casa até a casa do Vovó expresso na seguinte variável chamada trajeto:
+
+["mãe", "floresta", "avó"]. 
+
+Qual alternativa abaixo está correta?
+O comando trajeto.join(" > ") retorna a string "mãe > floresta > avó".
+----------------------------------------------------------------
+
+Analise o código abaixo:
+
+Alert (“Digital Innovation One:” + formacoes)
+
+Assinale a alternativa correta:
+O sinal "+" antes de uma string concatena. Antes de inteiros, ele soma.
+-----------------------------------------------------------------
+
+Qual a melhor definição para o DOM (Document Object Model) no contexto de páginas de internet?
+DOM é o modelo de padrão e interface que define propriedades, métodos e eventos de elementos.
+--------------------------------------------------------------------
+
