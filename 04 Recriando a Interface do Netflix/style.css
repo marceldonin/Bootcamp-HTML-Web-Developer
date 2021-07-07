@@ -31,6 +31,13 @@ ESTRUTURA BASE
 
 
 /***** DECLARAÇÃO DE VARIAVEIS*/
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+    --branca: white;
+
+
+}
 
 /***** ESTILOS GERAIS*/
 * {
@@ -38,17 +45,67 @@ ESTRUTURA BASE
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
 /***** BODY*/
 
-/***** HEADER*/
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--branca);
+    
+}
 
+/***** HEADER*/
+header .container {
+    display: flex;
+    flex-direction: row; /*Só por ter o display: flex; já vai ir para a posição linha.*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover { /*faz com que ao passar o mouse aconteça algo, no caso, muda de cor*/
+color: var(--branca);
+}
 /***** FOOTER*/
 
-/***** PÁGINA INICIAL*/
+/***** PÁGINA INICIAL/PRINCIPAL*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('./img/01CapitãMarvel01.jpg'); /*Gradient sempre precisa de duas cores*/
+    height: 400px;
+    background-size: cover; /*área de cobertura*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .sinopse {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
+}
 
 /***** EXTRAS*/
 
