@@ -1,0 +1,50 @@
+Construindo páginas para internet com Bootstrap
+02 Teste - Aprenda a utilizar o Bootstrap na sua página WEB
+==============================================================
+
+Em qual das seguintes tags é informada a linguagem do arquivo html?
+<html>
+---------------------------
+
+Qual a tag principal que marca o início e o fim do documento html?
+<html> </html>
+-----------------------------
+
+Sobre utilizar imagens na sua página html, assinale as corretas:
+I- É possível utilizar imagens de outras páginas através de um link.
+II- Utiliza-se a tag <img> para adicionar imagens.
+III- É necessário estar dentro de uma div para adicionar imagens ao arquivo.
+I e II estão corretas.
+----------------------------------------
+
+Qual tag é necessária no arquivo html para reconhecer palavras acentuadas na web?
+UTF-8
+--------------------------------------
+
+Qual classe é aplicada normalmente em uma tag <div>?
+Não existe nenhuma classe específica para adicionar, usa-se a que foi declarada no CSS para aquela função.
+--------------------------------------
+
+Assinale a alternativa que o professor indica que o tipo do arquivo é html:
+<!DOCTYPE html>
+----------------------------------------
+
+Como é importado o bootstrap ao projeto?
+Através de um href em uma tag link entre tags <head> e </head>.
+-----------------------------------------
+
+Quais afirmações são verdadeiras:
+I- É impossível criar um botão se estiver utilizando bootstrap.
+II- Não é possível alterar um botão existente do bootstrap.
+III- É possível criar novos botões utilizando bootstrap.
+Apenas III está correta.
+-----------------------------------------------
+
+Qual a função que o professor da aula descreveu sobre o uso de div em bootstrap?
+Para aplicar uma divisão e aplicar estilos contidos na classe.
+---------------------------------------------------
+
+O que é possível fazer em um navbar?
+Todas as alternativas.
+-----------------------------------------------------
+

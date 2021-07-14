@@ -1,0 +1,124 @@
+Construindo páginas para internet com Bootstrap
+03 Teste - Crie containers personalizados para o seu site
+==============================================================
+
+Os jogos olímpicos que ocorrem a cada 4 anos geram grande competição por diversos países em busca tanto da primeira colocação quanto da quebra de records de todos os tempos. O Brasil tem um record na categoria Salto com vara, masculino, graças a Thiago Braz, que alcançou 6, 03m.
+Nesse contexto, você recebe um código HTML da seguinte forma:
+<div id="categoria">
+<div class="modalidade">Salto com vara</div>
+<div class="recorde">6,03</div>
+<div class="nacionalidade">Brasileiro</div>
+<div class="nome">Thiago Braz</div>
+</div>
+
+Você precisa deixar tudo na cor azul, exceto o nome. Mas tudo com tamanho de 30px. Apenas modalidade escrito com a fonte Helvetica.
+Para isso avalie as afirmativas de CSS abaixo:
+I - .modalidade{font:Helvetica; size:30px, color: blue}
+II - .recorde{color:blue; font-size:30px}
+III - .nacionalidade{color:blue; font-size:30px}
+IV - .nome{font-size:30px; color:blue}
+
+Escolha a alternativa correta:
+Apenas a afirmativa II e III estão corretas.
+------------------------------------------------
+
+Você está organizando um jogo de xadrez e vai começar pelo tabuleiro. Você avalia os seguintes códigos em HTML e CSS respectivamente para isso:
+I - <div id="casa" class="preta"></div>
+II - <div id="casa" class="branca"></div>
+IV - .preta{background-color:white}
+V - .branca{background-color:black}
+
+Considerando que uma linha do tabuleiro de xadrez é composta por 8 casas que alternam entre preta e branca, sendo que a primeira linha possui a primeira casa da cor preta, qual a sequência correta de dispor os códigos acima para criar essa primeira linha do tabuleiro de xadrez? (Lembre-se que começa com preta e a classe determina a cor da div).
+II, I, II, I, II, I, II, I.
+-------------------------------------------------------
+
+A pirâmide alimentar vegana surgiu para facilitar aos vegetarianos, veganos e pretendentes a esse estilo de vida, a se cuidarem para ingerir diariamente os nutrientes necessários para uma vida saudável. Avalie o código HTML abaixo:
+<section id="piramide">
+<div id="a1"><div class="omega">Ômega3 e Vitamina B12</div></div>
+<div id="a2"><div class="vegetais metade">Vegetais</div><div class="leguminosas metade">Leguminosas</div></div>
+<div id="a3"><div class="legumes metade">Legumes</div><div class="frutas metade">Frutas</div></div>
+<div id="a4"><div class="graos">Grãos e Cereais</div></div>
+</section>
+
+Agora avalie o CSS abaixo:
+#a1{width:10px}
+#a2{width:30px}
+#a3{width:50px}
+#a4{width:70px}
+.metade{width:50%}
+
+Avaliando o código da pirâmide alimentar, qual alternativa abaixo é a correta?
+A base da pirâmide são Grãos e Cereais e o topo é formado por Ômega3 e Vitamina B12.
+----------------------------------------------------------------
+
+Um proprietário de um site de televisão te convidou para fazer um ajuste em uma seção de desenhos animados japoneses porque ele vai estrear 2 desenhos em horário nobre, mas ele não lembra o nome do estilo de desenho para escrever corretamente. Você avalia a possibilidade, digita o código e ele funciona. Qual deles você escreveu?
+<section id="animes"><div class="anime">Akira</div><div class="anime">Violet Evergarden</div></section>
+------------------------------------------------------------
+
+Você já conhece as listas básicas do HTML como <ol> e <ul>, porém no Bootstrap existe a tag <dl> (Definition List) capaz de fazer listas de definições. Os elementos que vão entre as tags <dl> e </dl> são de dois tipos: <dt> (Definition term) e <dd> (definition description). O texto entre <dt> e </dt> ficam em negrito e recebem o termo a ser definido, enquanto que o texto entre <dd> e </dd> recebem a descrição do termo. Sendo assim, veja abaixo a estrutura básica de uma lista de definição de alimentos e uma de suas propriedades nutritivas principais:
+<dl>
+<dt>Chia</dt><dd>Rico em proteína.</dd>
+<dt>Batata</dt><dd>Rico em carboidratos.</dd>
+<dt>Linhaça</dt><dd>Rico em ômega-3.</dd>
+</dl>
+
+Agora avalie as seguintes afirmativas de forma independente:
+I -  Se configurarmos no CSS dt{color:blue}, todos os termos entre <dt> e </dt> ficarão azuis.
+II - Para que tudo fique vermelho basta no CSS escrever dl{color:red}.
+III - Para que apenas a primeira e terceira linha sejam da cor azul você pode escrever um nome de classe para elas e configurar no CSS.
+IV - Para que a segunda linha tenha a descrição na cor roxa você pode criar um id só para ela.
+
+Estão corretas as alternativas:
+I, II, III e IV.
+--------------------------------------------------------------------------------
+
+Você foi contratado para desenvolver o CSS de um jogo, no qual você começará desenvolvendo o código de um dos heróis. Um colega de trabalho desenvolveu o HTML e quer suas instruções de como continuar o projeto. O código atualmente está assim:
+<div id="heroi" class=""></div>
+
+Ele disse que você precisa definir a classe contendo o capacete, a armadura, a arma e o amuleto desse herói.
+
+Qual das alternativas mais adequadamente lista as várias classes desse herói?
+<div id="heroi" class="capacete armadura arma amuleto"></div>
+----------------------------------------------------------------------
+
+As cores que enxergamos são provenientes de radiação por luz visível capazes de sensibilizar o olho humano.
+Organizando pelo comprimento da onda nós temos as seguintes cores:
+Violeta, índigo, azul, verde, amarelo, laranja, vermelho. Para além do violeta temos o ultravioleta, para além do vermelho temos o infravermelho, que são espectros não visíveis a olho nu.
+Os respectivos códigos hexadecimais para essas cores podem ser colocados, respectivamente, como:
+#a791c4, #2957a4, #00afef, #00ad57, fff212, f58634, #ed3237
+
+Avalie os códigos abaixo:
+I - <div id="cor">Violeta</div>
+II - <div id="indigo">Índigo</div>
+III - <div id="cor" class="asul">Essa cor é azul</div>
+IV - <div id="verde" class="cor verde">Verde como folha</div>
+V - <div class="amarelo cor">Amarelo</div>
+VI - <div id="laranja" class="laranja">Laranja</div>
+VII - <div id="cor"><div class="vermelho”>Vermelho</div></div>
+
+Assinale a alternativa correta:
+O HTML de todas as linhas funcionará, mas o CSS irá provocar confusão na visualização de algumas cores.
+-------------------------------------------------------------------
+
+Selecione abaixo a alternativa que melhor define a diferença entre a classe "container" e "container-fluid".
+A classe "container" possui largura fixa para cada tamanho de tela, enquanto que "container-fluid" expande por toda a largura disponível.
+-------------------------------------------------------------------------
+
+Você foi convocado para listar os 5 livros mais vendidos de todos os tempos, na seguinte ordem:
+Dom Quixote, Um Conto de Duas Cidades, O Alquimista, O Pequeno Príncipe, Harry Potter e a Pedra Filosofal.
+Cada livro possuirá texto descritivo, imagem e redirecionará, a princípio, a um link fictício.
+
+Avalie as seguintes afirmativas:
+I - Para uma lista ordenada deve ser usada a tag <ul> ao invés de <ol>
+II - Cada livro possuirá uma tag <a> com atributo href específico.
+III - Cada livro com sua descrição, imagem e link pode estar dentro de uma tag <div>.
+IV - Se acharmos adequado podemos ter várias tag <div> dentro de outras tag <div>
+
+Estão corretas as alternativas:
+II, III e IV.
+-------------------------------------------------------------------------
+
+Assinale a alternativa que melhor explica a diferença entre margin e padding.
+Margin é um atributo que cria um espaço em torno de um objeto, enquanto padding é uma margem interna do elemento.
+----------------------------------------------------------------------------
+

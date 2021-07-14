@@ -1,0 +1,19 @@
+1 - 5 - Quantidade de Números Positivos
+
+let contador = 0;
+let valor = 0;
+let i = 0;
+
+
+while (i <6)
+{
+  valor = gets();
+  if (valor > 0)
+  {
+    contador++;
+  }
+  i++
+}
+
+
+console.log(contador + " valores positivos")

@@ -1,0 +1,85 @@
+4 - 5 - Contagem de Cédulas
+
+
+
+let valor = parseInt(gets());
+
+
+
+notas = [100,50,20,10,5,2,1];
+
+
+
+
+
+notas100 = parseInt(valor / notas[0]);
+
+resto100 = valor - (100 * notas100);
+
+
+
+
+
+notas50 = parseInt(resto100 / notas[1]);
+
+resto50 = resto100 - (50 * notas50);
+
+
+
+
+
+notas20 = parseInt(resto50 / notas[2]);
+
+resto20 = resto50 - (20 * notas20);
+
+
+
+
+
+notas10 = parseInt(resto20 / notas[3]);
+
+resto10 = resto20 - (10 * notas10);
+
+
+
+
+
+notas5 = parseInt(resto10 / notas[4]);
+
+resto5 = resto10 - (5 * notas5);
+
+
+
+
+
+notas2 = parseInt(resto5 / notas[5]);
+
+resto2 = resto5 - (2 * notas2);
+
+
+
+
+
+notas1 = parseInt(resto2 / notas[6]);
+
+resto1 = resto2 - (1 * notas1);
+
+
+
+
+
+console.log(valor);
+
+console.log(notas100 + " nota(s) de R$ 100,00");
+
+console.log(notas50 + " nota(s) de R$ 50,00");
+
+console.log(notas20 + " nota(s) de R$ 20,00");
+
+console.log(notas10 + " nota(s) de R$ 10,00");
+
+console.log(notas5 + " nota(s) de R$ 5,00");
+
+console.log(notas2 + " nota(s) de R$ 2,00");
+
+console.log(notas1 + " nota(s) de R$ 1,00");

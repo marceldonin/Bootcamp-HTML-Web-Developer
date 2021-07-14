@@ -1,0 +1,47 @@
+Construindo páginas para internet com Bootstrap
+05 Teste - Crie lista de navegação com imagens em seu projeto
+==============================================================
+
+Quais são as principais tecnologias utilizadas para a criação do bootstrap?
+HTML, CSS e JavaScript.
+------------------------------------
+
+Assinale a alternativa que está correta em relação às afirmativas abaixo:
+I- O sistema de grade do bootstrap é dividido em 12 colunas.
+II- O bootstrap é feito apenas com javascript.
+III- O bootstrap é um framework front-end responsivo.
+I e III estão corretas.
+----------------------------------------
+
+Qual das alternativas representa uma classe do sistema de grade do bootstrap?
+Todas as alternativas.
+----------------------------------------
+
+Qual das seguintes propriedades destina a criar um espaçamento interno em um box entre seus 4 lados e a área de conteúdo do box?
+padding.
+-----------------------------------------
+
+O professor utilizou uma classe do bootstrap chamada container-fluid em uma <div>. Assinale a alternativa que explique o que essa propriedade faz:
+É um contêiner de largura total, abrangendo toda a largura de sua janela de exibição.
+-----------------------------------------
+
+Qual sinal a seguir é válido para as propriedades padding?
+Todos os sinais citados são válidos.
+------------------------------------------
+
+Qual classe do bootstrap o professor usou para apenas declarar um texto alinhado?
+text-center.
+------------------------------------------
+
+Qual propriedade em CSS é utilizada para configurar a cor do plano de fundo de um elemento?
+background-color.
+--------------------------------------------
+
+Qual propriedade do CSS define um preenchimento inferior de um espaço?
+padding-bottom.
+---------------------------------------------
+
+Qual a sequência das propriedades que o professor usou para fazer o carousel na aula?
+Foram 3 divs: 1- container para identificar um espaço da tela. 2- row para alinhar o conteúdo. 3- col-lg para dividir a linha em colunas grandes.
+-----------------------------------------------
+

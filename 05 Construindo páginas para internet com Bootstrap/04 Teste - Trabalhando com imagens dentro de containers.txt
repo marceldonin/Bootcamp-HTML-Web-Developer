@@ -1,0 +1,44 @@
+Construindo páginas para internet com Bootstrap
+04 Teste - Trabalhando com imagens dentro de containers
+==============================================================
+
+O que é utilizado para definir um link que leva a uma seção dentro da página?
+Dentro do href da tag <a> utiliza-se uma # seguida do id da seção.
+-------------
+
+Qual é o elemento que o professor utilizou para inserir espaço apenas na porção inferior da imagem e interna à sua borda?
+padding-bottom.
+--------------
+
+Para que se é utilizado a tag <h>?
+Para títulos e subtítulos.
+---------------
+
+Qual das alternativas está correta quanto a definição da cor de uma letra na página WEB?
+Todas as alternativas apresentam uma solução correta.
+-----------------
+
+Qual é a classe do bootstrap que o professor utilizou para deixar a imagem redonda?
+rounded-circle.
+-----------------------------
+
+Qual é o parâmetro utilizado para definir largura e altura de uma foto, respectivamente?
+width e height.
+
+------------------------------
+
+Qual código é usado para definir a fonte pelo CSS?
+font-family.
+-------------------------------
+
+Assinale a alternativa que corresponde a aplicação de estilo para deixar uma imagem genérica com borda arredondada através do Bootstrap:
+class="rounded-circle"
+--------------------------------
+
+Qual o código usado para definir a cor de uma letra pelo CSS?
+color.
+--------------------------------
+
+Qual a diferença do <h1> para o <h5>?
+O tamanho, o <h1> é maior que o <h5>.
+---------------------------------------

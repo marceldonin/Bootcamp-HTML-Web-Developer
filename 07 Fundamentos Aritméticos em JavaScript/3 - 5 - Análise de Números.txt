@@ -1,0 +1,35 @@
+3 - 5 - Análise de Números
+
+
+let A = parseInt(gets());
+let B = parseInt(gets());
+let C = parseInt(gets());
+let D = parseInt(gets());
+let E = parseInt(gets());
+
+
+let array=[A,B,C,D,E]
+let cont=0
+let cont1=0
+let cont2=0
+let cont3=0
+
+
+for (let i = 0; i <= array.length - 1; i++) {
+   if(array[i] % 2 == 0 ){
+       cont++
+   }
+   if(array[i] % 2 != 0 && array[i] != 0){
+    cont1++
+   }
+   if(array[i] > 0){
+    cont2++ 
+   }
+   if(array[i] < 0){
+    cont3++
+   }
+}
+console.log(cont + " valor(es) par(es)")
+console.log(cont1 + " valor(es) impar(es)")
+console.log(cont2 + " valor(es) positivo(s)")
+console.log(cont3 + " valor(es) negativo(s)")

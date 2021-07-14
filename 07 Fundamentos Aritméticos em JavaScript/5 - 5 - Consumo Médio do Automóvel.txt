@@ -1,0 +1,9 @@
+5 - 5 - Consumo Médio do Automóvel
+
+let distancia = parseFloat(gets());
+let combustivel = parseFloat(gets());
+
+let consumo = distancia / combustivel;
+let format_consumo = parseFloat(consumo.toFixed(3));
+
+console.log(format_consumo + " km/l");

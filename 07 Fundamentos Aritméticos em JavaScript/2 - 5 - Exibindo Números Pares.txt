@@ -1,0 +1,9 @@
+2 - 5 - Exibindo Números Pares
+
+let x = gets();
+
+for (i = 1; i <= x; i++ ) {
+  if (i%2 == 0) {
+    console.log(i);
+  }
+}

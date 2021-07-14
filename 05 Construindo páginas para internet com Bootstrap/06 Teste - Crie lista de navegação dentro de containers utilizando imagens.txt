@@ -1,0 +1,127 @@
+Construindo páginas para internet com Bootstrap
+06 Teste - Crie lista de navegação dentro de containers utilizando imagens
+==============================================================
+
+Qual classe fornece um contêiner de largura total, abrangendo toda a largura da tela?
+.container-fluid
+------------------------------
+
+Uma senhora está precisando atravessar a rua e pede sua ajuda, mas ela sofre de daltonismo e não consegue identificar o estado do semáforo para pedestres, pois é horário de pico de saída de trabalho em uma sexta-feira e todos estão acelerados. Verifique o código html e css atual.
+HTML:
+<div class="row semaforoPedestre">
+<div class="col-lg-3 vermelho"></div>
+<div class="col-lg-3 laranja"></div>
+<div class="col-lg-6 verde"></div>
+</div>
+
+CSS:
+.vermelho{background-color:red}
+.laranja{background-color:gray}
+.verde{background-color:gray}
+
+Avalie as afirmativa abaixo:
+I - A cor verde tem destaque no semáforo em relação ao tamanho.
+II - O semáforo está atualmente vermelho.
+III - A senhora pode atravessar a rua, os carros vão parar.
+IV - Não é possível identificar a fase em que está o semáforo.
+V - O semáforo dos carros está verde ou laranja, portanto tem carro passando.
+
+Das acima, quais estão corretas?
+Apenas I, II e V.
+-----------------------------------------------
+
+Para qual finalidade foi utilizado o comando git add .?
+Para adicionar todos os arquivos modificados ao commit.
+------------------------------------------------
+
+O cubo de Rubik, mais conhecido como cubo mágico, é um quebra-cabeça tridimensional. A versão mais conhecida é 3x3x3, com 6 cores diferentes. O tempo recorde pertence ao chinês Yusheng Du, da data de novembro de 2018 com a marca de apenas 3.47 segundos.
+Avalie abaixo a estrutura HTML de apenas um dos lados do cubo mágico:
+<div id="cubo" class="faceA">
+<div class="row">
+<div class="face vermelha col-lg-3"></div>
+<div class="face vermelha col-lg-3"></div>
+<div class="face vermelha col-lg-3"></div>
+</div>
+<div class="row">
+<div class="face amarela col-lg-3"></div>
+<div class="face azul col-lg-3"></div>
+<div class="face amarela col-lg-3"></div>
+</div>
+<div class="row">
+<div class="face azul col-lg-3"></div>
+<div class="face amarela col-lg-3"></div>
+<div class="face azul col-lg-3"></div>
+</div>
+</div>
+
+Avalie as afirmativas:
+I - Existe uma cor vermelha a mais que o permitido.
+II - A classe col-lg-3 deveria ser renomeada para col-lg-6.
+III - A classe col-lg-3 deveria ser renomeada para col-lg-4.
+IV - O cubo mágico está com apenas a primeira linha de mesma cor.
+V - Existem 3 cores que estão no outro lado do cubo, não visível deste lado.
+
+Estão corretas as afirmativas:
+Apenas III, IV e V.
+-----------------------------------------------
+
+Jimi Hendrix foi um guitarrista americano com auge de sucesso no final dos anos 60 e começo dos anos 70. Você foi convocado para dispor em uma página web 3 álbuns que ele desenvolveu, todos em uma mesma linha. Sendo assim avalie as opções em HTML com bootstrap abaixo:
+I - <div class="col-lg-6">
+II - <div class="row">
+III - </div>
+IV - <div class="col">
+V - <div class="col-lg-4">
+
+Avaliando as opções acima, qual a combinação mais adequada de dispor os elementos deixando preparado para receber 3 álbuns na mesma linha?
+II, V, III, V, III, V, III, III.
+------------------------------------------------
+
+Qual comando é um atalho para organizar todas as alterações que você tem?
+git add.
+-----------------------------------------------
+
+Qual classe é usada para criar uma paginação básica?
+pagination
+---------------------------------------------------
+
+Qual classe de botão é usada para criar um botão grande?
+.btn-lg
+------------------------------------------------------
+
+Na nutrição o conceito de caloria difere do tipo de macronutriente que se está falando. Deve-se saber que 1 grama de gordura equivale a 9 calorias e que 1 grama de carboidrato ou 1 grama de proteína equivale a 4 calorias. Sendo assim, avalie o código fonte abaixo:
+<section id="calorias">
+<div class="row">
+<div class="macronutriente" id="proteina"></div>
+<div class="macronutriente" id="carboidrato"></div>
+<div class="macronutriente" id="gordura"></div> 
+</div>
+</section>
+De maneira básica, considerando que gordura seja o dobro de carboidrato ou de proteína, qual o nome de cada classe que seria adequada para proteína, carboidrato e gordura para representar no bootstrap a correta divisão de tamanho de colunas?
+col-lg-3, col-lg-3, col-lg-6
+-------------------------------------------------------------
+
+Uma senhora está precisando atravessar a rua e pede sua ajuda, mas ela sofre de Transtorno Obsessivo Compulsivo (TOC) e ela não quer pisar nas faixas brancas da faixa de pedestre. A faixa de pedestre contém 6 faixas, a primeira é branca e alterna com puro asfalto (preto) e portanto a última é só o asfalto. Veja abaixo o código html e css:
+HTML:
+<div id="faixadepedestre" class="row">
+<div class="col-lg-3 cor1">
+<div class="col-lg-2 cor2">
+<div class="col-lg-3 cor1">
+<div class="col-lg-2 cor2">
+<div class="col-lg-3 cor1">
+<div class="col-lg-2 cor2">
+</div>
+
+CSS:
+.cor1{background-color:white}
+.cor2{background:black}
+
+Para ajudar a senhora a ver a faixa de pedestre corretamente, avalie as afirmativas abaixo:
+I - As classes de nome col-lg-3 e col-lg-2 precisam ser renomeadas para col-lg-6.
+II - As classes de nome col-lg-3 precisam ser renomeadas para col-lg-2.
+III - A tag <div> que carrega a class row não pode ter id associada.
+IV - O CSS da cor2 precisa ser corretamente escrito background-color para que a cor seja aplicada.
+
+Estão corretas apenas:
+Apenas a II.
+--------------------------------------------------------------------
+
