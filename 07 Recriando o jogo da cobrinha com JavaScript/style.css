@@ -1,0 +1,56 @@
+/*
+Theme Name: 
+Theme URI: 
+Author: Marcel Donin
+Author URI: 
+Description:
+Data: Julho/2021  
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+/***** DECLARAÇÃO DE VARIAVEIS*/
+/***** ESTILOS GERAIS*/
+/***** BODY*/
+/***** HEADER*/
+/***** FOOTER*/
+/***** PÁGINA INICIAL*/
+/***** EXTRAS*/
+/***** @MEDIA*/
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+*/
+
+/***** DECLARAÇÃO DE VARIAVEIS*/
+
+/***** ESTILOS GERAIS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+/***** BODY*/
+
+/***** HEADER*/
+
+/***** FOOTER*/
+
+/***** PÁGINA INICIAL*/
+
+/***** EXTRAS*/
+
+/***** @MEDIA*/
