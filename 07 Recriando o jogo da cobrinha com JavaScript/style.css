@@ -45,6 +45,17 @@ ESTRUTURA BASE
 
 /***** BODY*/
 
+.centralizado {
+ text-align: center
+}
+
+.titulo {
+    padding-top: 10px;
+    font-size: 30px;
+    color: green;
+}
+
+
 /***** HEADER*/
 
 /***** FOOTER*/
