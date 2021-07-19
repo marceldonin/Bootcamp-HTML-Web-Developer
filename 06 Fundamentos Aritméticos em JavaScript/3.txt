@@ -1,0 +1,34 @@
+
+let v1 = parseInt(gets());
+let v2 = parseInt(gets());
+let v3 = parseInt(gets());
+let v4 = parseInt(gets());
+let v5 = parseInt(gets());
+
+
+let array=[v1,v2,v3,v4,v5]
+let par=0
+let impar=0
+let positivo=0
+let negativo=0
+
+
+for (let i = 0; i <= array.length - 1; i++) {
+   if(array[i] % 2 == 0 ){
+       par++
+   }
+   if(array[i] % 2 != 0 && array[i] != 0){
+    impar++
+   }
+   if(array[i] > 0){
+    positivo++ 
+   }
+   if(array[i] < 0){
+    negativo++
+   }
+   
+}
+console.log(par + " valor(es) par(es)")
+console.log(impar + " valor(es) impar(es)")
+console.log(positivo + " valor(es) positivo(s)")
+console.log(negativo + " valor(es) negativo(s)")
