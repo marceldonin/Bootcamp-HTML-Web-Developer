@@ -1,0 +1,57 @@
+/*
+Theme Name: 
+Theme URI: 
+Author: Marcel Donin
+Author URI: 
+Description: Clone Netflix
+Data: Julho/2021 
+Version: 1.0
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+/***** DECLARAÇÃO DE VARIAVEIS*/
+/***** ESTILOS GERAIS*/
+/***** BODY*/
+/***** HEADER*/
+/***** FOOTER*/
+/***** PÁGINA INICIAL*/
+/***** EXTRAS*/
+/***** @MEDIA*/
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+*/
+
+
+/***** DECLARAÇÃO DE VARIAVEIS*/
+/***** ESTILOS GERAIS*/
+/***** BODY*/
+/***** HEADER*/
+/***** FOOTER*/
+/***** PÁGINA INICIAL/PRINCIPAL*/
+/***** EXTRAS*/
+
+/***** @MEDIA*/
+@media screen and (max-width: 730px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 150px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .sinopse {
+        width: 60%;
+    }
+}

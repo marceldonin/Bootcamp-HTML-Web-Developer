@@ -1,0 +1,154 @@
+/*
+Theme Name: 
+Theme URI: 
+Author: Marcel Donin
+Author URI: 
+Description: Clone Netflix
+Data: Julho/2021 
+Version: 1.0
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+/***** DECLARAÇÃO DE VARIAVEIS*/
+/***** ESTILOS GERAIS*/
+/***** BODY*/
+/***** HEADER*/
+/***** FOOTER*/
+/***** PÁGINA INICIAL*/
+/***** EXTRAS*/
+/***** @MEDIA*/
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+*/
+
+
+/***** DECLARAÇÃO DE VARIAVEIS*/
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+    --branca: white;
+
+
+}
+
+/***** ESTILOS GERAIS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/***** BODY*/
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: var(--branca);
+    
+}
+
+/***** HEADER*/
+header .container {
+    display: flex;
+    flex-direction: row; /*Só por ter o display: flex; já vai ir para a posição linha.*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover { /*faz com que ao passar o mouse aconteça algo, no caso, muda de cor*/
+color: var(--branca);
+}
+/***** FOOTER*/
+
+/***** PÁGINA INICIAL/PRINCIPAL*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('./img/01CapitãMarvel01.jpg'); /*Gradient sempre precisa de duas cores*/
+    height: 400px;
+    background-size: cover; /*área de cobertura*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.filme-principal .sinopse {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+    margin-top: 13%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.botao {
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.botao i {
+    margin-right: 7px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrossel-filmes {
+    margin-top: 8px;
+}
+
+/***** EXTRAS*/
+
+/***** @MEDIA*/
